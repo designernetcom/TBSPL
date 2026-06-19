@@ -8836,7 +8836,7 @@ Subscribe One
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(var(--builza-base-rgb), 0.9);
+  background-color: rgb(92 156 74 / 80%);
 }
 
 .service-two__title {
@@ -9333,6 +9333,9 @@ Subscribe One
     opacity: 1;
     transform: perspective(540px) rotateY(0deg) translateY(0px);
     transition-delay: 500ms;
+  }
+  .footer-widget__about {
+    margin-right: 0;
   }
 }
 
@@ -17129,13 +17132,13 @@ History Page
 }
 
 .service-details__sidebar-contact-content h3 a:hover {
-  color: var(--builza-base);
+  color: #fff;
 }
 
 .service-details__sidebar-contact-content p {
   font-weight: 500;
   text-transform: capitalize;
-  color: var(--builza-base);
+  color: #fff;
 }
 
 .service-details__sidebar-contact-btn-box {
