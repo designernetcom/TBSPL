@@ -6335,7 +6335,7 @@ xs sidebar
 .process-one {
   position: relative;
   display: block;
-  background-color: var(--builza-primary);
+  /* background-color: var(--builza-primary); */
   padding: 120px 0 90px;
   counter-reset: count;
   overflow: hidden;
@@ -7219,8 +7219,8 @@ xs sidebar
 .counter-one {
   position: relative;
   display: block;
-  background-color: var(--builza-primary);
-  padding: 0 0 90px;
+  /* background-color: var(--builza-primary); */
+  padding: 90px 0 55px;
   z-index: 1;
 }
 
@@ -13922,6 +13922,7 @@ Contact Two
   display: block;
   overflow: hidden;
   z-index: 1;
+  margin-top: 10px;
 }
 
 .page-header__bg {
@@ -15232,7 +15233,7 @@ Contact Two
 .contact-info {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 60px 0 60px;
   z-index: 1;
 }
 
@@ -15321,7 +15322,7 @@ Contact Two
 .contact-page {
   position: relative;
   display: block;
-  padding: 0 0 120px;
+  padding: 0 0 60px;
   z-index: 1;
 }
 
@@ -16786,14 +16787,13 @@ History Page
   position: relative;
   display: block;
 }
-
 /*--------------------------------------------------------------
 # Service Details
 --------------------------------------------------------------*/
 .service-details {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 70px 0 70px;
   z-index: 1;
 }
 
@@ -20805,6 +20805,9 @@ Product Description
 .banner-container img {
   max-width: 100%;
   height: auto;
+}
+.page-header img {
+  width: 100%;
 }
 /* .chat-icon i {
   font-size: 35px;
