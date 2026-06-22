@@ -5313,7 +5313,7 @@ xs sidebar
   align-items: center;
   flex-wrap: wrap;
   gap: 30px;
-  margin-top: 38px;
+  margin: 38px 0;
 }
 
 .about-one__btn-box {
