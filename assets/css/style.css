@@ -367,15 +367,15 @@ ul {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #fff;
-  border-radius: 5px;
-  background: var(--builza-base);
+  border-radius: 30px;
+  background: #5a9b49;
   z-index: 1;
   border: none;
 }
 
-.chat-icon button:before {
+/* .chat-icon button:before {
   content: "";
   position: absolute;
   top: -5px;
@@ -383,9 +383,9 @@ ul {
   right: -5px;
   bottom: -5px;
   background-color: rgba(var(--builza-base-rgb));
-  border-radius: 5px;
+  border-radius: 30px;
   z-index: -1;
-}
+} */
 
 /***
 =============================================
@@ -20814,6 +20814,12 @@ Product Description
 }
 .mobile-nav__close i {
   color: #0a3365;
+}
+.main-menu__logo img {
+  width: 150px;
+}
+.mobile-nav__wrapper .logo-box img {
+  width: 100px;
 }
 /* .chat-icon i {
   font-size: 35px;
