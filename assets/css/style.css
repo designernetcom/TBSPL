@@ -5985,6 +5985,7 @@ xs sidebar
   counter-reset: count;
   padding: 120px 0 50px;
   z-index: 1;
+  margin-bottom: 50px;
 }
 
 .why-choose-one__bg {
