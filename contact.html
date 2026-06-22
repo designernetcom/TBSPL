@@ -149,6 +149,11 @@
 
       <!--Page Header Start-->
       <!-- <section class="page-header">
+        <div>
+          <img src="assets/images/tbspl/contact-banner.png" alt="" />
+        </div>
+      </section> -->
+      <!-- <section class="page-header">
         <div
           class="page-header__bg"
           style="
@@ -163,58 +168,145 @@
       </section> -->
       <!--Page Header End-->
 
-      <!--Contact Info Start-->
-      <section class="contact-info">
+      <section class="contact-one">
+        <div
+          class="contact-one__bg"
+          style="
+            background-image: url(assets/images/tbspl/services/interior.jpg);
+          "
+        ></div>
+        <div class="contact-one__shape-1">
+          <img src="assets/images/shapes/contact-one-shape-1.png" alt="" />
+        </div>
         <div class="container">
           <div class="row">
-            <!--Contact Two Single Start-->
-            <div
-              class="col-xl-4 col-lg-4 wow fadeInLeft"
-              data-wow-delay="100ms"
-            >
-              <div class="contact-info__single">
-                <div class="contact-info__icon">
-                  <span class="icon-call"></span>
+            <div class="col-xl-6">
+              <div class="contact-one__left">
+                <div class="contact-one__contact-info-box">
+                  <h3 class="contact-one__contact-info-title">Contact Us</h3>
+                  <ul class="contact-one__contact-info-list list-unstyled">
+                    <li>
+                      <div class="icon">
+                        <span class="fas fa-envelope"></span>
+                      </div>
+                      <div class="content">
+                        <h4>Email</h4>
+                        <p>
+                          <a href="mailto:toshib@tbspl.co.in"
+                            >toshib@tbspl.co.in</a
+                          >
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <span class="icon-call"></span>
+                      </div>
+                      <div class="content">
+                        <h4>Phone</h4>
+                        <p><a href="tel:+91902151008">+91 - 902151008</a></p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <span class="fas fa-map-marker-alt"></span>
+                      </div>
+                      <div class="content">
+                        <h4>Address</h4>
+                        <p>Pune</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <span class="fas fa-clock"></span>
+                      </div>
+                      <div class="content">
+                        <h4>Open Hours</h4>
+                        <p>Mon - Sat: 8.00am to 5.30pm</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="contact-one__social-box">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="#"><span class="fab fa-pinterest-p"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                  </div>
                 </div>
-                <p>Contact Us</p>
-                <h3><a href="tel:+91902151008"> +91 - 902151008</a></h3>
               </div>
             </div>
-            <!--Contact Two Single End-->
-            <!--Contact Two Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-              <div class="contact-info__single">
-                <div class="contact-info__icon">
-                  <span class="icon-email"></span>
-                </div>
-                <p>Mail Us</p>
-                <h3>
-                  <a href="mailto:toshib@tbspl.co.in"> toshib@tbspl.co.in</a>
-                </h3>
+            <div class="col-xl-6">
+              <div class="contact-one__right">
+                <h3 class="contact-one__form-title">Request A Quote</h3>
+                <p class="contact-one__form-text">24/7 Support</p>
+                <form
+                  id="contact-form"
+                  class="contact-form-validated contact-one__form"
+                  action=""
+                  method="POST"
+                  novalidate="novalidate"
+                >
+                  <div class="row">
+                    <div class="col-xl-12">
+                      <div class="contact-one__input-box">
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Your name"
+                          required=""
+                          aria-required="true"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="contact-one__input-box">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Your Email"
+                          required=""
+                          aria-required="true"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="contact-one__input-box">
+                        <input
+                          type="text"
+                          placeholder="Phone Number"
+                          name="phone"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-xl-12">
+                      <div class="contact-one__input-box text-message-box">
+                        <textarea
+                          name="message"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                      <div class="contact-one__btn-box">
+                        <button
+                          type="submit"
+                          class="thm-btn contact-one__btn"
+                          data-loading-text="Please wait..."
+                        >
+                          Send A Message
+                          <span class="fas fa-arrow-right"></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="result"></div>
               </div>
             </div>
-            <!--Contact Two Single End-->
-            <!--Contact Two Single Start-->
-            <div
-              class="col-xl-4 col-lg-4 wow fadeInRight"
-              data-wow-delay="300ms"
-            >
-              <div class="contact-info__single">
-                <div class="contact-info__icon">
-                  <span class="icon-map"></span>
-                </div>
-                <p>Our Office Location</p>
-                <h3>Pune</h3>
-              </div>
-            </div>
-            <!--Contact Two Single End-->
           </div>
         </div>
       </section>
-      <!--Contact Info End-->
 
       <!--Contact Page Start-->
-      <section class="contact-page">
+      <!-- <section class="contact-page">
         <div class="container">
           <div class="contact-page__inner">
             <div class="row">
@@ -302,7 +394,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!--Contact Page End-->
 
       <!--Site Footer Start-->
